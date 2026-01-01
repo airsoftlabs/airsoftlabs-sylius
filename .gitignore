@@ -17,6 +17,16 @@ Thumbs.db
 # Vendor (komt straks via composer)
 vendor/
 
+# DDEV but only add example file
+# Ignore everything in .ddev
+.ddev/*
+
+# Allow the folder itself
+!.ddev/
+
+# Allow example config file
+!.ddev/config.example.yaml
+
 # Node
 node_modules/
 
