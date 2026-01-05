@@ -1,5 +1,4 @@
 framework:
-    translator: { fallbacks: ["%locale%"] }
     secret: '%env(APP_SECRET)%'
     form:
         enabled: true

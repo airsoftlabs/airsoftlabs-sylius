@@ -40,3 +40,21 @@ services:
     App\Controller\:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
+        
+#    # ------------------------------------------------------------
+#    # Locale subscriber
+#    # ------------------------------------------------------------
+#    App\EventSubscriber\LocaleSubscriber:
+#        arguments:
+#            $defaultLocale: 'en_US'
+#        tags:
+#            - { name: kernel.event_subscriber }
+#                
+#                
+#    # ------------------------------------------------------------
+#    # Override Sylius locale context
+#    # ------------------------------------------------------------
+#    Sylius\Component\Locale\Context\LocaleContextInterface:
+#        class: App\Locale\RequestLocaleContext
+#        arguments:
+#            $defaultLocale: 'en_US'

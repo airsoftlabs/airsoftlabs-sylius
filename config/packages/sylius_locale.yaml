@@ -1,0 +1,3 @@
+# Sylius fallback locale
+sylius_locale:
+    locale: en_US
