@@ -1,4 +1,3 @@
 sylius_shop:
-    locale_switcher: url # creates SEO-friendly URLs like /nl/
     product_grid:
         include_all_descendants: true

@@ -75,3 +75,10 @@ Thumbs.db
 *~
 *.swp
 *.bak
+
+# Ignore packages, development only
+packages
+/packages/sylius-locale-experiments/
+
+
+

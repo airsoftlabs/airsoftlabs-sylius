@@ -1,0 +1,18 @@
+{
+    "name": "airsoftlabs/airsoftlabs-theme",
+    "title": "Airsoftlabs",
+    "type": "sylius-theme",
+    "description": "Custom Sylius theme package",
+    "authors": [
+        {
+            "name": "Bertin van den Ham",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "sylius-theme": {
+            "title": "AirsoftLabs",
+            "description": "Custom sylius theme"
+        }
+    }
+}
